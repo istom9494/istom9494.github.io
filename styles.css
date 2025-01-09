@@ -134,6 +134,118 @@ aside#sidebar h2 {
     padding: 10px;
     transition: transform 0.3s ease;
 }
+.tutorial-item7 {
+    width: calc((100% - 40px) / 3);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+.tutorial-item8 {
+    width: calc((100% - 40px) / 3);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+.tutorial-item9 {
+    width: calc((100% - 40px) / 3);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+.tutorial-item10 {
+    width: calc((100% - 40px) / 3);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+.tutorial-item11 {
+    width: calc((100% - 40px) / 3);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+.tutorial-item12 {
+    width: calc((100% - 40px) / 3);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+.tutorial-item13 {
+    width: calc((100% - 40px) / 3);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+.tutorial-item14 {
+    width: calc((100% - 40px) / 3);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+.tutorial-item15 {
+    width: calc((100% - 40px) / 3);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+.tutorial-item16 {
+    width: calc((100% - 40px) / 3);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+.tutorial-item17 {
+    width: calc((100% - 40px) / 3);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+.tutorial-item18 {
+    width: calc((100% - 40px) / 3);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+.tutorial-item19 {
+    width: calc((100% - 40px) / 3);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+.tutorial-item20 {
+    width: calc((100% - 40px) / 3);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+.tutorial-item21 {
+    width: calc((100% - 40px) / 3);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+.tutorial-item22 {
+    width: calc((100% - 40px) / 3);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
 .tutorial-item:hover {
     transform: scale(1.05);
 }

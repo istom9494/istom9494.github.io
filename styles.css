@@ -91,6 +91,7 @@ aside#sidebar h2 {
     border: 1px solid #ccc;
     padding: 10px;
     transition: transform 0.3s ease;
+    font-style:normol;
 }
 .tutorial-item1 {
     width: calc((100% - 40px) / 3);

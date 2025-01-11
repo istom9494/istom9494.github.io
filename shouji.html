@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>原神-登录页面</title>
+		<title>原神-手机号码登录页面</title>
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="shortcut icon" href="img/yuansu (1).png" type="image/x-icon" />
 		<style>
@@ -71,21 +71,6 @@
 				display: flex;
 				justify-content: space-between
 			}
-			.banner{
-				position: relative;
-				display: inline-block;
-
-			}
-			.mains{
-				position: absolute;
-				bottom: 0;
-				left: 0;
-				width: 100%;
-				background-color: rgba(0,0,0,0.5);
-				color: white;
-				padding: 35px;
-				box-sizing: border-box;
-			}
 		</style>
 	</head>
 	<body>
@@ -106,26 +91,43 @@
 			</div>
 		</div>
 		
-		<img src="img/denglu01.jpg" alt="" class="banner">
+		<img src="img/banner (5).jpg" alt="" class="banner">
 		
 		
 		<!-- 网站主体： -->
 		<div class="mains">
 			<div class="logins2">
 				<div class="title">原神·登录</div>
-				<input type="text" placeholder="请输入用户名" />
+				<button1><input type="text" placeholder="请输入手机号" /></button1>
 				<input type="text" placeholder="请输入登陆密码" />
 				<div class="no_password">什么，忘记密码了？</div>
 				<a href="index.html"><button> <img src="img/yuansu (2).png" alt="">原神启动<img src="img/yuansu (2).png" alt=""></button></a>
 				<div class="duan">
-					<a href="shouji.html#001"><span>手机号快捷登录</span></a>
+					
 					<a href="zhuce.html#002"><span>立即注册</span></a>
 				</div>
 			</div>
 		</div>
-		<!-- 底部版权： -->
+        <script>
+            var btn=document.querySelector('button1');
+            btn.addEventListener('click',function(){
+                var time=60;
+                btn.disabled=true;
+                var timer=setInterval(function(){
+                    if(time==0){
+                        clearInterval(timer);
+                        btn.disabled=false;
+                        btn.innerHTML='发送验证码';
+                    }else{
+                        btn.innerHTML=time+"秒后重新发送";
+                        time--;
+                    }
+                },1000);
+            });
+        </script>
+        <!-- 底部版权： -->
 		<div class="footer" id="001">
-			© 米哈游版权所有 | 2025.1.09 
+			© 米哈游版权所有 | 2025.1.09
 		</div>
 	</body>
 </html>

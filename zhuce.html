@@ -2,14 +2,13 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>原神-登录页面</title>
+		<title>原神-注册页面</title>
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="shortcut icon" href="img/yuansu (1).png" type="image/x-icon" />
 		<style>
-			
 			.logins2 {
 				width: 40%;
-				height: 640px;
+				height: 740px;
 				margin: 100px 30%;
 			}
 			
@@ -71,21 +70,6 @@
 				display: flex;
 				justify-content: space-between
 			}
-			.banner{
-				position: relative;
-				display: inline-block;
-
-			}
-			.mains{
-				position: absolute;
-				bottom: 0;
-				left: 0;
-				width: 100%;
-				background-color: rgba(0,0,0,0.5);
-				color: white;
-				padding: 35px;
-				box-sizing: border-box;
-			}
 		</style>
 	</head>
 	<body>
@@ -101,31 +85,34 @@
 				<a href="guanyu.html">关于我们</a>
 			</div>
 			<div class="logins">
-				<a href="login.html">登录</a>
-				<a href="zhuce.html">注册</a>
+				<a href="login.html#001">登录</a>
+				<a href="zhuce.html#002">注册</a>
 			</div>
 		</div>
 		
-		<img src="img/denglu01.jpg" alt="" class="banner">
+		<img src="img/huodong (3).jpg" alt="" class="banner">
 		
 		
 		<!-- 网站主体： -->
 		<div class="mains">
 			<div class="logins2">
-				<div class="title">原神·登录</div>
+				<div class="title">原神·注册</div>
 				<input type="text" placeholder="请输入用户名" />
 				<input type="text" placeholder="请输入登陆密码" />
-				<div class="no_password">什么，忘记密码了？</div>
+				<input type="text" placeholder="确认密码" />
+				<input type="text" placeholder="绑定邮箱" />
+				<input type="text" placeholder="绑定手机号" />
+				<a href="login.html#001"><div class="no_password">什么，有账号，快速登录？</div></a>
 				<a href="index.html"><button> <img src="img/yuansu (2).png" alt="">原神启动<img src="img/yuansu (2).png" alt=""></button></a>
 				<div class="duan">
-					<a href="shouji.html#001"><span>手机号快捷登录</span></a>
-					<a href="zhuce.html#002"><span>立即注册</span></a>
+					<a href="shouji.html#001"><span>手机号快捷登录</span></a><a href="login.html#001"><span>立即登录</span></a>
 				</div>
 			</div>
 		</div>
+		
 		<!-- 底部版权： -->
-		<div class="footer" id="001">
-			© 米哈游版权所有 | 2025.1.09 
+		<div class="footer" id="002">
+			© 米哈游版权所有 | 2025.1.09
 		</div>
 	</body>
 </html>
